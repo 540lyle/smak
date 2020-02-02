@@ -7,20 +7,10 @@
   </header>
   <div class="content-container">
       <div class="content-area">
-        <form clrForm>
-            <clr-input-container>
-                <label>Name</label>
-                <input clrInput formControlName="name" />
-            </clr-input-container>
-            <clr-input-container>
-                <label>Bin</label>
-                <input clrInput formControlName="room" />
-            </clr-input-container>
-          </form>
-        <button class="btn btn-primary">New</button>
+        <router-outlet></router-outlet>
       </div>
   </div>
 </div>
 
 
-<router-outlet></router-outlet>
+
